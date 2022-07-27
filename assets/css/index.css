@@ -1,0 +1,37 @@
+@import './partials/header.css';
+@import './partials/main.css';
+@import './partials/footer.css';
+
+:root {
+  --body-bg-color: #faf7fd;
+  --primary-color: #bb99dd;
+
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--primary-color);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  background-color: var(--body-bg-color);
+  color: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 400px;
+  height: 100vh;
+}
