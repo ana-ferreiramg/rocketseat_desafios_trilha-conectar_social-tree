@@ -1,0 +1,19 @@
+header.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info__perfil {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-info__perfil img {
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  padding: 4px;
+}
